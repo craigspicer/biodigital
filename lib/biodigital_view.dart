@@ -10,8 +10,8 @@ class BioDigitalView extends BioDigitalPlatform {
   Future<List> init(BioDigitalOptions options) async {
     Map<String, String?> optionsMap = <String, String?>{};
 
-    if (options.model != null) {
-      optionsMap.putIfAbsent("model", () => options.model!);
+    if (options.modelId != null) {
+      optionsMap.putIfAbsent("modelId", () => options.modelId!);
     }
 
     return await channel

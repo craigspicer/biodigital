@@ -1,5 +1,5 @@
 class BioDigitalOptions {
-  String? model;
+  String? modelId;
 
-  BioDigitalOptions({required this.model});
+  BioDigitalOptions({required this.modelId});
 }

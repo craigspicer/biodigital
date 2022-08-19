@@ -66,9 +66,9 @@ public class BiodigitalPlugin implements FlutterPlugin, MethodCallHandler, Activ
 
     private void init(final MethodCall methodCall, final Result result) {
         Map<String, String> options = methodCall.arguments();
-        String model = options.get("model");
+        String modelId = options.get("modelId");
         Intent i = new Intent(activity, MainActivity.class);
-        i.putExtra("model", model);
+        i.putExtra("model", modelId);
         activity.startActivity(i);
     }
 }

@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity implements HKServicesInterfa
             map.put(HumanUIOptions.all, true);
             HKHuman human = new HKHuman(rl, map);
 
-            String model = getIntent().getExtras().getString("model");
-            human.load("production/maleAdult/" + model + ".json");
+            String modelId = getIntent().getExtras().getString("modelId");
+            human.load(modelId);
         });
     }
 
