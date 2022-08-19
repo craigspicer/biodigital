@@ -32,9 +32,9 @@
             android:value="2" />
         <meta-data
             android:name="com.biodigital.humansdk.API_KEY"
-            android:value="d6cd3c2cfb31922e65e77ac2a57f50803ee14bb6" />
+            android:value="<Your api key>" />
         <meta-data
             android:name="com.biodigital.humansdk.API_SECRET"
-            android:value="12f26f5a19ddc927b22d27597bbe9c27f43285a7" />
+            android:value="<Your api secret>" />
     </application>
 </manifest>
